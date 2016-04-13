@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A223A541C687E8D007E9F7D /* CameraUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A223A531C687E8D007E9F7D /* CameraUtil.swift */; settings = {ASSET_TAGS = (); }; };
+		4A223A561C687F98007E9F7D /* haarcascade_frontalface_alt.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4A223A551C687F98007E9F7D /* haarcascade_frontalface_alt.xml */; settings = {ASSET_TAGS = (); }; };
+		4A223A591C6880AA007E9F7D /* Detector.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4A223A581C6880AA007E9F7D /* Detector.mm */; settings = {ASSET_TAGS = (); }; };
+		4A223A5B1C688250007E9F7D /* opencv_test.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = 4A223A5A1C688250007E9F7D /* opencv_test.xcworkspace */; settings = {ASSET_TAGS = (); }; };
 		4A6497951C68759D000173BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6497941C68759D000173BC /* AppDelegate.swift */; };
 		4A6497971C68759D000173BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6497961C68759D000173BC /* ViewController.swift */; };
 		4A64979A1C68759D000173BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A6497981C68759D000173BC /* Main.storyboard */; };
@@ -14,9 +18,17 @@
 		4A64979F1C68759D000173BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A64979D1C68759D000173BC /* LaunchScreen.storyboard */; };
 		4A6497AA1C68759E000173BC /* opencv_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6497A91C68759E000173BC /* opencv_testTests.swift */; };
 		4A6497B51C68759E000173BC /* opencv_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6497B41C68759E000173BC /* opencv_testUITests.swift */; };
+		DAA19DC0351F73362E48C2A1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A2CB2B871001FCC2A6A0ED /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		4A223A601C6883A4007E9F7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A223A5C1C6883A3007E9F7D /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BFDCEDF11CC5329E8A2F6885DA7FBE21;
+			remoteInfo = Pods;
+		};
 		4A6497A61C68759E000173BC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4A6497891C68759D000173BC /* Project object */;
@@ -34,6 +46,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25A2CB2B871001FCC2A6A0ED /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A223A531C687E8D007E9F7D /* CameraUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraUtil.swift; sourceTree = "<group>"; };
+		4A223A551C687F98007E9F7D /* haarcascade_frontalface_alt.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_alt.xml; sourceTree = "<group>"; };
+		4A223A571C6880AA007E9F7D /* opencv_test-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "opencv_test-Bridging-Header.h"; sourceTree = "<group>"; };
+		4A223A581C6880AA007E9F7D /* Detector.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Detector.mm; sourceTree = "<group>"; };
+		4A223A5A1C688250007E9F7D /* opencv_test.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = opencv_test.xcworkspace; sourceTree = "<group>"; };
+		4A223A5C1C6883A3007E9F7D /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
 		4A6497911C68759D000173BC /* opencv_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = opencv_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A6497941C68759D000173BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A6497961C68759D000173BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +66,8 @@
 		4A6497B01C68759E000173BC /* opencv_testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = opencv_testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A6497B41C68759E000173BC /* opencv_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = opencv_testUITests.swift; sourceTree = "<group>"; };
 		4A6497B61C68759E000173BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84916A9759B217CDA3F64BD3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B120E4A71D673CA58FBC21D6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAA19DC0351F73362E48C2A1 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +96,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		48E369AB4CE3CE98E75408D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84916A9759B217CDA3F64BD3 /* Pods.debug.xcconfig */,
+				B120E4A71D673CA58FBC21D6 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4A223A5D1C6883A3007E9F7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A223A611C6883A4007E9F7D /* libPods.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		4A6497881C68759D000173BC = {
 			isa = PBXGroup;
 			children = (
+				4A223A5C1C6883A3007E9F7D /* Pods.xcodeproj */,
+				4A223A5A1C688250007E9F7D /* opencv_test.xcworkspace */,
 				4A6497931C68759D000173BC /* opencv_test */,
 				4A6497A81C68759E000173BC /* opencv_testTests */,
 				4A6497B31C68759E000173BC /* opencv_testUITests */,
 				4A6497921C68759D000173BC /* Products */,
+				48E369AB4CE3CE98E75408D2 /* Pods */,
+				60B4242B43502B5BB4995425 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +142,14 @@
 			children = (
 				4A6497941C68759D000173BC /* AppDelegate.swift */,
 				4A6497961C68759D000173BC /* ViewController.swift */,
+				4A223A581C6880AA007E9F7D /* Detector.mm */,
 				4A6497981C68759D000173BC /* Main.storyboard */,
+				4A223A551C687F98007E9F7D /* haarcascade_frontalface_alt.xml */,
+				4A223A531C687E8D007E9F7D /* CameraUtil.swift */,
 				4A64979B1C68759D000173BC /* Assets.xcassets */,
 				4A64979D1C68759D000173BC /* LaunchScreen.storyboard */,
 				4A6497A01C68759D000173BC /* Info.plist */,
+				4A223A571C6880AA007E9F7D /* opencv_test-Bridging-Header.h */,
 			);
 			path = opencv_test;
 			sourceTree = "<group>";
@@ -125,6 +172,14 @@
 			path = opencv_testUITests;
 			sourceTree = "<group>";
 		};
+		60B4242B43502B5BB4995425 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25A2CB2B871001FCC2A6A0ED /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A6497B91C68759E000173BC /* Build configuration list for PBXNativeTarget "opencv_test" */;
 			buildPhases = (
+				0D1837D35C7A11286F0C47D1 /* Check Pods Manifest.lock */,
 				4A64978D1C68759D000173BC /* Sources */,
 				4A64978E1C68759D000173BC /* Frameworks */,
 				4A64978F1C68759D000173BC /* Resources */,
+				0E4E1D461B7BAF04EC6B046D /* Embed Pods Frameworks */,
+				A7DAEFEEED9B1B5E28C3372F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -187,6 +245,7 @@
 		4A6497891C68759D000173BC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Yoshiyuki Yamane";
 				TargetAttributes = {
@@ -217,6 +276,12 @@
 			mainGroup = 4A6497881C68759D000173BC;
 			productRefGroup = 4A6497921C68759D000173BC /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4A223A5D1C6883A3007E9F7D /* Products */;
+					ProjectRef = 4A223A5C1C6883A3007E9F7D /* Pods.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				4A6497901C68759D000173BC /* opencv_test */,
@@ -226,6 +291,16 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		4A223A611C6883A4007E9F7D /* libPods.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPods.a;
+			remoteRef = 4A223A601C6883A4007E9F7D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		4A64978F1C68759D000173BC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
@@ -233,6 +308,8 @@
 			files = (
 				4A64979F1C68759D000173BC /* LaunchScreen.storyboard in Resources */,
 				4A64979C1C68759D000173BC /* Assets.xcassets in Resources */,
+				4A223A5B1C688250007E9F7D /* opencv_test.xcworkspace in Resources */,
+				4A223A561C687F98007E9F7D /* haarcascade_frontalface_alt.xml in Resources */,
 				4A64979A1C68759D000173BC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,13 +330,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D1837D35C7A11286F0C47D1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0E4E1D461B7BAF04EC6B046D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7DAEFEEED9B1B5E28C3372F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4A64978D1C68759D000173BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A223A541C687E8D007E9F7D /* CameraUtil.swift in Sources */,
 				4A6497971C68759D000173BC /* ViewController.swift in Sources */,
 				4A6497951C68759D000173BC /* AppDelegate.swift in Sources */,
+				4A223A591C6880AA007E9F7D /* Detector.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,23 +524,34 @@
 		};
 		4A6497BA1C68759E000173BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84916A9759B217CDA3F64BD3 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = opencv_test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.konome.lab.opencv-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "opencv_test/opencv_test-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		4A6497BB1C68759E000173BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B120E4A71D673CA58FBC21D6 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = opencv_test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.konome.lab.opencv-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "opencv_test/opencv_test-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -484,6 +622,7 @@
 				4A6497BB1C68759E000173BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A6497BC1C68759E000173BC /* Build configuration list for PBXNativeTarget "opencv_testTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +631,7 @@
 				4A6497BE1C68759E000173BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A6497BF1C68759E000173BC /* Build configuration list for PBXNativeTarget "opencv_testUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +640,7 @@
 				4A6497C11C68759E000173BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
